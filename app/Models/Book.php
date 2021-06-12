@@ -24,7 +24,7 @@ class Book extends Model implements AuthenticatableContract, AuthorizableContrac
      * @var array
      */
     protected $fillable = [
-        'id','bookname', 'yearpublish','authorid',
+        'bookname', 'yearpublish','authorid',
     ];
 
     /**
